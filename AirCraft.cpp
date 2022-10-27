@@ -6,30 +6,30 @@ AirCraft::AirCraft(int w){
     weight = w;
 }             // creates an Aircraft with weight w
 
-AirCraft::void set_fuel(float f){
+void AirCraft::set_fuel(float f){
     fuel = f;
 }
-AirCraft::float get_fuel(){
+float AirCraft::get_fuel(){
     return fuel;
 }
-AirCraft::void set_weight(int w){
+void AirCraft::set_weight(int w){
     weight = w;
 }
-AirCraft::int get_weight(){
+int AirCraft::get_weight(){
     return weight;
 }
-AirCraft::void set_numberOfFlights(int n){
+void AirCraft::set_numberOfFlights(int n){
     numberOfFlights = n;
 }
-AirCraft::int get_numberOfFlights(){
+int AirCraft::get_numberOfFlights(){
     return numberOfFlights;
 }
 
-AirCraft::void fly(int headwind, int minutes){
+void AirCraft::fly(int headwind, int minutes){
     fuel = fuel - minutes/5;
     numberOfFlights++;
 }
 
-AirCraft::void refuel() {
+void AirCraft::refuel() {
     fuel = 100;
 }  
