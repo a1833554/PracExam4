@@ -21,7 +21,7 @@ int get_weight(){
 void set_numberOfFlights(int n){
     numberOfFlights = n;
 }
-int numberOfFlights(){
+int get_numberOfFlights(){
     return numberOfFlights;
 }
 
