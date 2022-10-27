@@ -16,7 +16,6 @@ int get_weight();
 void set_numberOfFlights(int n);
 int get_numberOfFlights();
 virtual void fly(int headwind, int minutes);
-private:
 int weight ;                 // the weight of AirCraft
 float fuel      ;            // fuel percentage, initially 100%
 int numberOfFlights  ;       // initially 0

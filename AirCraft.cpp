@@ -26,8 +26,8 @@ int AirCraft::get_numberOfFlights(){
 }
 
 void AirCraft::fly(int headwind, int minutes){
-    fuel = fuel - minutes/5;
-    numberOfFlights++;
+    fuel = fuel - minutes*headwind/20  ;
+    numberOfFlights+= 1;
 }
 
 void AirCraft::refuel() {
