@@ -7,7 +7,7 @@ AirCraft::AirCraft(int w){
 }             // creates an Aircraft with weight w
 
 void AirCraft::set_fuel(float f){
-    fuel = f;
+    fuel = 100;
 }
 float AirCraft::get_fuel(){
     return fuel;
